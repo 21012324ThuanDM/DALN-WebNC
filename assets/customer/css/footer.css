@@ -1,0 +1,118 @@
+.footer {
+    background-color: #cfe2ff;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.alignFooter {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.iconOne {
+    display: grid;
+    grid-template-areas: '... ...';
+}
+.fa-wrench {
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.fa-gear {
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.icon {
+    border: 1px solid gray;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 20px;
+}
+.iconAlign {
+    position: absolute;
+    top: 12.5px;
+    left: 12.5px
+}
+.textContactInfo {
+    width: 190px;
+}
+.contactInfo {
+    width: 400px;
+}
+.contactInfo > div {
+    font-weight: bold;
+}
+.contactInfo > ul {
+    font-size: 13px;
+    padding-right: 50px;
+    margin-right: 50px;
+}
+
+.supportFooter a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.introduce {
+    width: 300px;
+}
+.customerSupport {
+    width: 300px;
+}
+.customerConsulting {
+    width: 300px;
+}
+.supportFooter li {
+    line-height: 2;
+    font-size: 13px;
+}
+.businessCooperation.businessCooperation:hover {
+    color: #0048ff;
+}
+.paymentSection img {
+    width: 60px;
+}
+.supportSection {
+    display: grid;
+    grid-template-areas: '... ... ...';
+}
+.supportPayment {
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.blockBrand {
+    display: grid;
+    grid-template-areas: '... ...';
+    border: 1px solid gray;
+    padding: 10px 20px;
+    width: 820px;
+}
+.blockSupportPayment {
+    display: grid;
+    grid-template-areas: '... ...';
+    width: 400px;
+    border-right: 1px solid gray;
+    margin-right: 40px;
+}
+.blockCertified {
+    display: grid;
+    grid-template-areas: '... ...';
+    width: 400px;
+}
+.textBrand {
+    padding-top: 7px;
+}
+.textAbout {
+    font-size: 13px;
+    color: gray;
+    padding-top: 20px;
+    width: 850px;
+}
+.textContactInfo :hover {
+    color: red;
+}
